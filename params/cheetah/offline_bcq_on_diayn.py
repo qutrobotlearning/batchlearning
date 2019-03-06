@@ -16,6 +16,6 @@ J_SCALE = 2
 PSI     = 0.1
 LAMBDA  = 0.75
 
-UPDATES  = 10000 # TODO: CHANGE BACK TO 300K !!!
+UPDATES  = 300000
 DATA_IN  = ".data/{}_SoftACAgent_DIAYNTask_live.pytorch".format(ENV)
 

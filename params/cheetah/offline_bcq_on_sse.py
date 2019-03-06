@@ -16,6 +16,6 @@ J_SCALE = 2
 PSI     = 0.1
 LAMBDA  = 0.75
 
-UPDATES  = 10000
+UPDATES  = 300000
 DATA_IN  = ".data/{}_SelfSupervisedExplorationAgent_live.pytorch".format(ENV)
 

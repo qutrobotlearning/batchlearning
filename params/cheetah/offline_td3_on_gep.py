@@ -11,6 +11,6 @@ BATCH   = 100
 D       = 1
 TAU     = 0.005
 
-UPDATES  = 10000
+UPDATES  = 300000
 DATA_IN  = ".data/{}_GEPAgent_live.pytorch".format(ENV)
 
