@@ -10,7 +10,15 @@ We use:
 
 
 ## Framework
-Individual experiments are represented by their parameter files, located in params/domain_name. These files specify all parameters for the experiment, including the environment to be instantiated. The base parameter file specifies the general parameters for each domain, while the more specific files include the parameters for individual experiments. Agent.py implements all agent classes, while session implements the session classes, which run episodes, allowing the agents to interact with the environment. Task specifies user defined rewards, which include intrinsic rewards.
+Individual experiments are represented by their parameter files, located in 'params/domain_name'. These files specify all parameters for the experiment, including the environment to be instantiated. The base parameter file specifies the general parameters for each domain, while the more specific files include the parameters for individual experiments. 'agent.py' implements all agent classes, while session implements the session classes, which run episodes, allowing the agents to interact with the environment. Task specifies user defined rewards, which include intrinsic rewards.
+
+## Environments
+The simulated Mujoco environments evaluated on are:
+- 'HalfCheetah-v1'
+- 'Walker2d-v1'
+- 'Hopper-v1'
+
+We also evaluate on a real robot, the [Franka Emika Panda](https://www.franka.de/panda/).
 
 
 ## Running Experiments
