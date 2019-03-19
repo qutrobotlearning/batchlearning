@@ -27,4 +27,11 @@ To run an experiment, run the ‘run’ script and specify a parameter file. For
 
 ```./run params/cheetah/explore_rnd.py```
 
+Upon completion, the '.data' folder will be created and the data stored within. You can then train an agent on this offline data by simply pointing the run file to the corresponding parameter file. For example, to train a TD3 agent on the offline data produced by the previous command:
+
+```./run params/cheetah/offline_td3_on_rnd.py```
+
+Note that tensorboard log files will be stored in the 'runs' directory, allowing you to view the progress of training.
+
+
 
